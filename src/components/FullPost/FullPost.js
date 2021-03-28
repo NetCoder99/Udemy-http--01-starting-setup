@@ -3,6 +3,13 @@ import React, { Component } from 'react';
 import './FullPost.css';
 
 class FullPost extends Component {
+    // componentDidUpdate(){
+    //     if (this.prods.id){
+            
+    //     }
+    // }
+
+
     render () {
         let post = <p style={{textAlign: 'center'}}>Please select a Post!</p>;
 
