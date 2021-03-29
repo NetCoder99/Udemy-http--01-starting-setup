@@ -1,4 +1,3 @@
-//import React, { useState, Component } from 'react';
 import axios from 'axios';
 import {getLink} from './getLinkFnc.js';
 
@@ -42,20 +41,4 @@ export function getPosts()
     .catch(errors => {
       console.error(errors);
     });
-
-    // axios.get(getLink() + '/posts')
-    // .then(response => { 
-    //     const posts = response.data.slice(0,6);
-    //     const updatedPosts = posts.map(post => {
-    //         return {
-    //             userId: post.userId,
-    //             id: post.id,
-    //             title: post.title,
-    //             body: post.body,
-    //             author: null
-    //             //...post, author:null
-    //         }
-    //     })
-    //     //this.setState({posts: updatedPosts});
-    // });
 }
